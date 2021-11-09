@@ -1,70 +1,27 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+#1 clonar el repositorio desde https://github.com/hugotata78/ch-global-system
 
-In the project directory, you can run:
+#2 Una vez clonado el repo y dentro del directorio donde se ubica el mismo, ejecutar el comando
+yarn install para instalar las dependencias
 
-### `yarn start`
+#3 Luego de instalar las dependencias, ejecutar el comando yarn start para iniciar la aplicación
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+#4 Caracteristicas:
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+*Productos:
+Al hacer click en la imagen de un producto de la lista, el producto seleccionado se agrega al carrito de compras, en caso de que este producto ya se encuentre dentro del carrito, al hacer click en dicah imagen hace que aumente en uno la cantidad del producto seleccionado.
 
-### `yarn test`
+*Carrito de compras:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+el carrito de compras inicialmente se halla oculto, para desplegar el mismo se debe hacer click en el icono ubicado en la esquina superior izquierda de la aplicación. Esto hace que se despliegue un componente, el cual si el carrito se encuentra vacio, muestra un  parrafo indicando dicha circunstancia, en caso contrario se exhibe la lista de productos agregados al carrito, detallando la cantidad de cada producto seleccionado, el precio unitario y el precio total por cada itme, además dicha lista cuenta con dos botones para aumentar o disminuir la cantidad en uno de un producto en específico, si en caso de que uno de los productos solo tiene la cantida equivalente a 1, al hacer click en el boton para disminuir la cantidad, esto elimina el producto de la lista. También cada item cuenta con un tercer botón para poder eliminar un producto de la lista sin importar la cantidad de elementos con que cuenta dicho produto.
+Al final de la lista se exhibe un parrafo indicando el precio total de la lista de productos.
 
-### `yarn build`
+*Medios de pago:
+Debajo de la lista de productos, se despliega una componente con una lista de imagenes con las distintas opciones de pago que cuenta el cliente para pagar los productos adquiridos, cada una de estas imágnes está relacionada a un input tipo 'radio', el cual se halla oculto. Al hacer click sobre la imagen del medio de pago que se desea utilizar, se ejecuta una función que hace que se tome el valor del input, el cual se agrega a un estado que posteriormente será utilizado al momento de pagar los productos.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+*Botón de pago:
+En el margen inferior derecho, se ubica un boton para efectuar al pago de los productos adquiridos, el cual cuenta con dos validaciones, la primera verifica si se seleccionó un medio de pago, la segunda que el carrito cuente con algún producto agregado, en caso de que no se haya seleccionado ningún medio de pago o que el carrito se encuentre vacio, se despliega una alerta indicando al cliente dichas circunstancias, en caso de pasar ambas validaciones se despliega un modal, indicando el medio de pago seleccionado, contando dicho modal con un boton para aceptar y realizar el pago, otro para cancelar y otro botón para cerrar el modal, en este último caso también se cancela el pago.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+# link deploy: https://columbus-store.surge.sh/
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
