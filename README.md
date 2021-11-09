@@ -25,3 +25,4 @@ En el margen inferior derecho, se ubica un boton para efectuar al pago de los pr
 
 # link deploy: https://columbus-store.surge.sh/
 
+PD: La lista de productos agregados al carrito de compras se guarda en el localstorage del cliente, para que al momento de refrescar la pagina estos no se pierdan
