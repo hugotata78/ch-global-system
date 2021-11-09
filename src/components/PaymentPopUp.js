@@ -15,9 +15,9 @@ export const PaymentPopUp = () => {
     return (
         <div className={classPopup} onClick={handleOnClick}>
             <div className='card card-popup p-1'>
-                <di className='d-flex justify-content-end p-0 m-0'>
+                <div className='d-flex justify-content-end p-0 m-0'>
                     <button className='btn btn-danger'>X</button>
-                </di>
+                </div>
                 <div className="card-body p-4">
                     <h5 className="card-title">Su forma de Pago</h5>
                     <p className="card-text">Usted quiere pagar con {method}</p>

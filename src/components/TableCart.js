@@ -16,9 +16,9 @@ export const TableCart = ({ cart, removeItem, subtract, add }) => {
             <tbody>
                 {
                     cart && cart.map((c,index) => {
-                        console.log(c)
+                        
                         return (
-                            <tr>
+                            <tr key={index}>
                                 <td>
                                     <span>{c.quantity}</span>
                                     <FontAwesomeIcon

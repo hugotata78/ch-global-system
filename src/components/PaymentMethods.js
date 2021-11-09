@@ -14,7 +14,6 @@ export const PaymentMethods = () => {
 
     const handleChange = (e)=>{
         setMethod(e.target.value)
-        console.log(method)
     }
     return (
 
@@ -44,7 +43,7 @@ export const PaymentMethods = () => {
                     </div>
                 </div>
                 <div className='col-12 col-md-6 col-lg-4 mb-2'>
-                    <div className="card" style={{ width: "18rem;" }}>
+                    <div className="card" >
                         <input
                             type="radio"
                             id='visa-payment'
@@ -66,7 +65,7 @@ export const PaymentMethods = () => {
                     </div>
                 </div>
                 <div className='col-12 col-md-6 col-lg-4 mb-2'>
-                    <div className="card" style={{ width: "18rem;" }}>
+                    <div className="card">
                         <input
                             type="radio"
                             id='mastercard-payment'
@@ -88,7 +87,7 @@ export const PaymentMethods = () => {
                     </div>
                 </div>
                 <div className='col-12 col-md-6 col-lg-4 mb-2'>
-                    <div className="card" style={{ width: "18rem;" }}>
+                    <div className="card">
                         <input
                             type="radio"
                             id='uber-payment'
@@ -110,7 +109,7 @@ export const PaymentMethods = () => {
                     </div>
                 </div>
                 <div className='col-12 col-md-6 col-lg-4 mb-2'>
-                    <div className="card" style={{ width: "18rem;" }}>
+                    <div className="card">
                         <input
                             type="radio"
                             id='debito-payment'
@@ -132,7 +131,7 @@ export const PaymentMethods = () => {
                     </div>
                 </div>
                 <div className='col-12 col-md-6 col-lg-4 mb-2'>
-                    <div className="card" style={{ width: "18rem;" }}>
+                    <div className="card">
                         <input
                             type="radio"
                             id='plus-payment'
