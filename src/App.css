@@ -1,6 +1,4 @@
-.App {
-  text-align: center;
-}
+
 
 .App-logo {
   height: 40vmin;
@@ -27,7 +25,9 @@
 .App-link {
   color: #61dafb;
 }
-
+.card-height{
+  height: 250px;
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

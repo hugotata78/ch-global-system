@@ -5,9 +5,133 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: #EAEAEA;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.App {
+  background: #EAEAEA;
+}
+.content-left{
+  background: rgb(46, 44, 44);
+  width: 8%;
+}
+
+.bg-nav{
+  background: #265B65;
+}
+.number{
+  background: rgb(116, 7, 7);
+  border-radius: 50%;
+}
+.number span{
+  color: #EAEAEA;
+  font-size: 20px;
+  font-weight: 600;
+}
+.cart-icon{
+  color: #EAEAEA;
+  font-size: 22px;
+  cursor: pointer;
+}
+
+.content-right{
+  width: 92%;
+}
+.cart-empty{
+  color: rgb(126, 11, 11);
+  margin: 30px auto;
+}
+.img-nav{
+  width: 75px;
+}
+
+.title-nav{
+  color: white;
+  font-size: 36px;
+  font-family: 'Pacifico', cursive;
+}
+
+td{
+  font-size: 20px;
+}
+
+.trash{
+  color:red;
+  cursor: pointer;
+}
+
+.trash:hover{
+  color: rgb(163, 30, 30);
+}
+
+.quantity{
+  cursor: pointer;
+  margin-left: 5px;
+}
+img{
+  cursor: pointer;
+}
+.card-payment{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+.payment-img{
+  width: 100%;
+  height: 80px;
+}
+
+.payment-btn{
+  font-size: 36px;
+  cursor: pointer;
+  color: #EAEAEA;
+  background: rgb(46, 43, 43);
+  border-radius: 5px;
+}
+
+.pop-up{
+  width: 100%;
+  height: 1200px;
+  display: flex;
+  justify-content: center;
+  background: rgba(208, 208, 212, 0.842);
+  position: absolute;
+  z-index: 10000;
+  
+}
+
+.card-popup{
+  width: 350px;
+  height: 250px;
+  top: 30%;
+}
+
+.nav-menu{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.nav-menu p{
+  font-weight: 600;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.border-p{
+  border-bottom: 3px solid sienna;
+}
+
+.data{
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+  color: #EAEAEA;
 }
