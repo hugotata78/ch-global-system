@@ -100,6 +100,7 @@ img{
   height: 1200px;
   display: flex;
   justify-content: center;
+  align-items: center;
   background: rgba(208, 208, 212, 0.842);
   position: absolute;
   z-index: 10000;
@@ -109,7 +110,6 @@ img{
 .card-popup{
   width: 350px;
   height: 250px;
-  top: 30%;
 }
 
 .nav-menu{
