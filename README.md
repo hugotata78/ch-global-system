@@ -1,4 +1,10 @@
+# CHALLENGE GLOBAL SYSTEM
 
+Simulación de una tienda online de venta de productos alimenticios
+
+# Tecnologías
+
+HTML, CSS, JAVASCRIPT, REACTJS, BOOTSTRAP
 
 #1 clonar el repositorio desde https://github.com/hugotata78/ch-global-system
 
