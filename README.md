@@ -29,6 +29,6 @@ Debajo de la lista de productos, se despliega un componente con una lista de ima
 *Botón de pago:
 En el margen inferior derecho, se ubica un boton para efectuar al pago de los productos adquiridos, el cual cuenta con dos validaciones, la primera verifica si se seleccionó un medio de pago, la segunda que el carrito cuente con algún producto agregado, en caso de que no se haya seleccionado ningún medio de pago o que el carrito se encuentre vacio, se despliega una alerta indicando al cliente dichas circunstancias, en caso de pasar ambas validaciones se despliega un modal, indicando el medio de pago seleccionado, contando dicho modal con un boton para aceptar y realizar el pago, otro para cancelar y otro botón para cerrar el modal, en este último caso también se cancela el pago.
 
-# link deploy: https://columbus-store.surge.sh/
+# link deploy: https://columbus-online-store.surge.sh/
 
 PD: La lista de productos agregados al carrito de compras se guarda en el localstorage del cliente, para que al momento de refrescar la pagina estos no se pierdan
